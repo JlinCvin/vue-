@@ -1,0 +1,115 @@
+.markdown-render h1{
+	display: block;
+	font-size: 20px;
+	margin-block-start: .5em;
+	margin-block-end: .5em;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	font-weight: bold;
+}
+.markdown-render h2{
+	display: block;
+	font-size: 16px;
+	margin-block-start: .5em;
+	margin-block-end: .5em;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	font-weight: bold;
+}
+.markdown-render table{
+	width: 95%;
+	box-sizing: border-box;
+	border: 1px solid #e7e7eb;
+	border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: hide;
+    word-break: break-all;
+	word-wrap: break-word;
+	margin: 4px 0;
+}
+.markdown-render th{
+	padding: 8px 15px;
+    font-weight: 400;
+    background: #f4f5f9;
+	border-bottom: 1px solid #e7e7eb;
+}
+.markdown-render td{
+	padding: 8px 15px;
+    border-bottom: 1px solid #e7e7eb;
+    empty-cells: show;
+ }
+.markdown-render li{
+	list-style: inside;
+	margin:10px 0;
+ }
+.markdown-render blockquote{
+	color: #888;
+ }
+code{
+	padding: .5em;
+	background: #23241f;
+	display: block;
+	color: #e8e8e2;
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+.language-html{
+
+}
+.hljs {
+	display: block;
+	padding: .5em;
+	background: #23241f
+}
+
+code .hljs, .hljs-tag, .css .hljs-rules, .css .hljs-value, .css .hljs-function .hljs-preprocessor, .hljs-pragma {
+	color: #f8f8f2
+}
+
+.hljs-strongemphasis, .hljs-strong, .hljs-emphasis {
+	color: #f8f8f2
+}
+
+.hljs-bullet, .hljs-blockquote, .hljs-horizontal_rule, .hljs-number, .hljs-regexp, .alias .hljs-keyword, .hljs-literal, .hljs-hexcolor {
+	color: #ae81ff
+}
+
+.hljs-tag .hljs-value, .hljs-code, .hljs-title, .css .hljs-class, .hljs-class .hljs-title:last-child {
+	color: #a6e22e
+}
+
+.hljs-link_url {
+	font-size: 80%
+}
+
+.hljs-strong, .hljs-strongemphasis {
+	font-weight: bold
+}
+
+.hljs-emphasis, .hljs-strongemphasis, .hljs-class .hljs-title:last-child {
+	font-style: italic
+}
+
+.hljs-keyword, .hljs-function, .hljs-change, .hljs-winutils, .hljs-flow, .lisp .hljs-title, .clojure .hljs-built_in, .nginx .hljs-title, .tex .hljs-special, .hljs-header, .hljs-attribute, .hljs-symbol, .hljs-symbol .hljs-string, .hljs-tag .hljs-title, .hljs-value, .alias .hljs-keyword:first-child, .css .hljs-tag, .css .unit, .css .hljs-important {
+	color: #f92672
+}
+
+.hljs-function .hljs-keyword, .hljs-class .hljs-keyword:first-child, .hljs-constant, .css .hljs-attribute {
+	color: #66d9ef
+}
+
+.hljs-variable, .hljs-params, .hljs-class .hljs-title {
+	color: #f8f8f2
+}
+
+.hljs-string, .css .hljs-id, .hljs-subst, .haskell .hljs-type, .ruby .hljs-class .hljs-parent, .hljs-built_in, .sql .hljs-aggregate, .django .hljs-template_tag, .django .hljs-variable, .smalltalk .hljs-class, .django .hljs-filter .hljs-argument, .smalltalk .hljs-localvars, .smalltalk .hljs-array, .hljs-attr_selector, .hljs-pseudo, .hljs-addition, .hljs-stream, .hljs-envvar, .apache .hljs-tag, .apache .hljs-cbracket, .tex .hljs-command, .hljs-prompt, .hljs-link_label, .hljs-link_url {
+	color: #e6db74
+}
+
+.hljs-comment, .hljs-javadoc, .java .hljs-annotation, .python .hljs-decorator, .hljs-template_comment, .hljs-pi, .hljs-doctype, .hljs-deletion, .hljs-shebang, .apache .hljs-sqbracket, .tex .hljs-formula {
+	color: #75715e
+}
+
+.coffeescript .javascript, .javascript .xml, .tex .hljs-formula, .xml .javascript, .xml .vbscript, .xml .css, .xml .hljs-cdata, .xml .php, .php .xml {
+	opacity: .5
+}
